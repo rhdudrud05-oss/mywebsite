@@ -12,6 +12,7 @@
 
 *변경 전
 SELECT 생산지수 FROM production_index WHERE 연월 = '2026.03'
+
 *변경 후
 SELECT 생산지수 FROM production_index
 WHERE 지역='전국' AND 산업='제조업'
